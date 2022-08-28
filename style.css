@@ -1,0 +1,84 @@
+body{
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(165, 26, 170), rgb(22, 212, 212));
+}
+
+.nav{
+    position: relative;
+    height: 100px;
+    width: 1310px;
+    background: rgba(35, 44, 108, 0.4);
+    top: -20px;
+    border-radius: 100px;
+}
+
+.title{
+    position: absolute;
+    font-size: 70px;
+    top: -40px;
+    left: 470px;
+    color: rgb(0, 0, 0);
+}
+
+.homebutton button{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    font-size: large;
+    background-color: rgba(35, 44, 108, 0);
+    top: 2px;
+    left: 60px;
+}
+
+.homebutton :hover{
+    cursor: pointer;
+    border-color: rgb(52, 96, 157);
+    background-color: rgba(35, 44, 108, 0.1);
+}
+
+
+.about-me-button button{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    font-size: large;
+    background-color: rgba(35, 44, 108, 0);
+    top: 2px;
+    left: 1200px;
+}
+
+.about-me-button :hover{
+    cursor: pointer;
+    border-color: rgb(176, 182, 191);
+    background-color: rgba(35, 44, 108, 0.1);
+}
+
+.h1{
+    position: absolute;
+    font-size: 50px;
+    width: 400px;
+    left: 400px;
+    top: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.channel-button button{
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    border-radius: 100px;
+    font-size: 40px;
+    background-color: rgba(35, 44, 108, 0);
+    top: 300px;
+    left: 400px;
+    color: rgb(0, 0, 0);
+}
+
+.channel-button :hover{
+    cursor: pointer;
+    border-color: rgb(52, 96, 157);
+    background-color: rgba(185, 186, 193, 0.6);
+}
